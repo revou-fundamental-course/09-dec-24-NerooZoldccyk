@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="tampilancss.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Our Packages</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home">
+        <div class="banner">
+            <div class="slide">Welcome to Our Travel Agency</div>
+            <div class="slide">Discover Amazing Destinations</div>
+            <div class="slide">Plan Your Perfect Trip</div>
+        </div>
+    </section>
+
+    <!-- Our Packages Section -->
+    <section id="packages">
+        <h2>Our Travel Packages</h2>
+        <div class="package-list">
+            <div class="package">Package 1</div>
+            <div class="package">Package 2</div>
+            <div class="package">Package 3</div>
+        </div>
+    </section>
+
+    <!-- Call Action Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="destination">Travel Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="backend.js"></script>
+</body>
+</html>
